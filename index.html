@@ -1,48 +1,32 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Create forms quickly with TAIP's no code form builder. Various templates included.">
-    <meta name="author" content="sattiyans">
-    <title>TAIP: No-Code Form Builder</title>
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-  <link rel="stylesheet" href="./assets/dist/css/custom.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-  </head>
-    <body>
-      <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H253YWLMKK"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    <title>TAIP - No-Code Form Builder</title>
+    <link href="https://unpkg.com/tailwindcss@1.0.4/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
 
-      gtag('config', 'G-H253YWLMKK');
-    </script>
-      <div class="container vh-100 d-flex justify-content-center align-items-center px-4 text-center">
-        <div>
-          <img class="animate__animated animate__pulse animate__infinite" width="50%" src="./assets/images/TAIP-logo-final-black.svg">
-          <!-- <form>
-            <div class="form-group">
-              <div class="row">
-                <div class="col-md-8 mt-2">
-                  <input type="email" class="form-control rounded-pill" placeholder="Enter email">
-                </div>
-                <div class="col-md-4 mt-2">
-                  <button type="submit" class="btn btn-dark rounded-pill">Register Interest</button>
-                </div>
-              </div>
-            </div>
-          </form> -->
-        </div>
-      </div>
-    </body>
+    <style>
+      .title{
+        font-family: 'Comfortaa', cursive;
+      }
+    </style>
+
+</head>
+<body onload="onLoad();" class="bg-black  h-screen overflow-hidden flex items-center justify-center">
+    <div class="w-1/2 mx-auto ">
+  <div class="w-full shadow-2xl subpixel-antialiased rounded h-64 bg-black border-black mx-auto">
+    <div class="flex items-center h-6 " id="headerTerminal">
+      <span>www.taip.app</span>
+    </div>
+    <div class="pl-1 pt-20 m-auto text-green-200 font-mono text-xs bg-black flex flex-col justify-center items-center shadow" id="console">
+      <span>www.taip.app</span>
+    </div>
+  </div> 
+</div>
+</body>
 </html>
